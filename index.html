@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <title>Button</title>
+    <link href="./dist/output.css" rel="stylesheet" />
+</head>
+
+<body class="py-20 px-60">
+    <div class="container">
+        <form class="wrapper">
+            <div class="ntv">Contact NTV</div>
+            <div class="email">Email Us</div>
+            <div class="name">
+                <div class="flex flex-col h-full">
+                    <label for="name">Name</label>
+                    <input class="border-solid border-red-500 h-full border-2" type="text" id="name">
+                </div>
+            </div>
+            <div class="company">
+                <div class="flex flex-col h-full">
+                    <label for="company">Company</label>
+                    <input class="border-solid border-red-500 h-full border-2" type="text" id="company">
+                </div>
+            </div>
+            <div class="address">
+                <div class="flex flex-col h-full">
+                    <label for="address">Email Address</label>
+                    <input class="border-solid border-red-500 h-full border-2" type="email" id="address">
+                </div>
+            </div>
+            <div class="phone">
+                <div class="flex flex-col h-full">
+                    <label for="phone">Phone Number</label>
+                    <input class="border-solid border-red-500 h-full border-2" type="tel" id="phone">
+                </div>
+            </div>
+            <div class="message">
+                <div class="flex flex-col h-full">
+                    <label for="message">Message</label>
+                    <textarea class="border-solid border-red-500 h-full border-2" id="message"></textarea>
+                </div>
+            </div>
+            <button class="button" onclick="alert('You have submitted your form, thank you!')">SUBMIT</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
